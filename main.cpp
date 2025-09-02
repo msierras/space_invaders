@@ -14,6 +14,8 @@ int main(){
 
     glfwSetErrorCallback(error_callback);
 
+    // initializing the GLFW library
+    if( !glfwInit() ) return -1;
 
     return 0; 
 }
